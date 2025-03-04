@@ -13,7 +13,7 @@ const Footer = () => {
                     Llámanos
                     <br />
                     (+52) 777 - 197 - 6914</h1>
-                <Image src="/logo-W.svg" alt='' width={350} height={350} className="float py-10" />
+                <Image src="/logo-w.svg" alt='' width={350} height={350} className="float py-10" />
                 <p className="text-[20px] md:text-[25px] border-b-2">viannymaya@gmail.com</p>
             </div>
             {/* Social Media */}
