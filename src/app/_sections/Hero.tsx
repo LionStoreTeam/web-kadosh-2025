@@ -1,6 +1,5 @@
 "use client";
 
-import { AuroraBackground } from "@/components/ui/aurora-background";
 import { motion } from "framer-motion";
 import React from "react";
 import Image from 'next/image';
@@ -8,7 +7,7 @@ import Image from 'next/image';
 export function Hero() {
     return (
         <div className="w-full">
-            <AuroraBackground>
+            <div className="my-14">
                 <motion.div
                     initial={{ opacity: 0.0, y: 40 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -30,7 +29,7 @@ export function Hero() {
                     {/* Image Hero */}
                     <Image src="/logo.svg" alt="hero_image_logo" width={500} height={500} className="float my-10" />
                 </motion.div>
-            </AuroraBackground>
+            </div>
         </div>
     );
 }

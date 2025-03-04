@@ -4,7 +4,7 @@ import { InfiniteMovingCards } from "@/components/ui/infinite-moving-cards";
 
 export function Banners() {
     return (
-        <div className="mb-20 rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
+        <div className="w-full mb-20 rounded-md flex flex-col antialiased bg-white items-center justify-center relative overflow-hidden">
             <h1 className="mb-20 font-bold text-center text-[35px] text-slate-600 md:text-[60px] xl:text-[90px]">
                 ¿ Convencido ?
             </h1>

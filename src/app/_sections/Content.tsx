@@ -3,7 +3,7 @@ import Image from "next/image";
 const Content = () => {
     return (
         <div className="w-full my-20">
-            <h1 className="mb-20 font-bold text-center text-[35px] text-slate-600 md:text-[60px] xl:text-[90px]">
+            <h1 className="mt-10 mb-20 font-bold text-center text-[35px] text-slate-600 md:text-[60px] xl:text-[90px]">
                 Nuestros Estilos
             </h1>
             <div className="p-2">
