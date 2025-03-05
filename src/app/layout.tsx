@@ -3,6 +3,7 @@ import "./globals.css";
 import { workSans } from "../../fonts/fonts";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 
 export const metadata: Metadata = {
@@ -22,6 +23,7 @@ export default function RootLayout({
       >
         <Navbar />
         {children}
+        <ScrollToTopButton />
         <Footer />
       </body>
     </html>
